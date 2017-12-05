@@ -35,7 +35,7 @@
         android:layout_height="150dp"
         android:layout_marginLeft="0dp"
         android:layout_marginTop="24dp"
-        android:text="Monster Care"
+        android:text="Music Player"
         app:layout_constraintLeft_toLeftOf="@+id/buttonMatching"
         app:layout_constraintTop_toBottomOf="@+id/buttonMatching" />
 
@@ -45,7 +45,7 @@
         android:layout_height="150dp"
         android:layout_marginRight="0dp"
         android:layout_marginTop="24dp"
-        android:text="Builders"
+        android:text="Present Popper"
         app:layout_constraintRight_toRightOf="@+id/buttonCounting"
         app:layout_constraintTop_toBottomOf="@+id/buttonCounting" />
 

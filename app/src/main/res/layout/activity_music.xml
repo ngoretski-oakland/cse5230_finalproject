@@ -6,4 +6,15 @@
     android:layout_height="match_parent"
     tools:context="edu.csi5230.ngoretski.finalproject.MusicActivity">
 
+    <Button
+        android:id="@+id/button_music_jingle"
+        android:layout_width="368dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="32dp"
+        android:text="Jingle Bells"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 </android.support.constraint.ConstraintLayout>
