@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         monsterButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(v.getContext(), MonsterActivity.class);
+                Intent i = new Intent(v.getContext(), MusicActivity.class);
                 i.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
                 startActivity(i);
             }
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         builderButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(v.getContext(), BuilderActivity.class);
+                Intent i = new Intent(v.getContext(), PoppingActivity.class);
                 i.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
                 startActivity(i);
             }

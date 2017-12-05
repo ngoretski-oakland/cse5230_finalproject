@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="edu.csi5230.ngoretski.finalproject.MonsterActivity">
+    tools:context="edu.csi5230.ngoretski.finalproject.PoppingActivity">
 
 </android.support.constraint.ConstraintLayout>
