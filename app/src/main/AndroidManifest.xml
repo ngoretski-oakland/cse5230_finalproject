@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.csi5230.ngoretski.finalproject">
+    package="edu.csi5230.ngoretski.finalproject"
+    xmlns:tools="http://schemas.android.com/tools" >
 
     <application
         android:allowBackup="true"
@@ -20,6 +21,13 @@
         <activity android:name=".CountingActivity" />
         <activity android:name=".MusicActivity" />
         <activity android:name=".PoppingActivity"></activity>
+
+
     </application>
+
+    <meta-data
+        tools:replace="android:value"
+        android:name="android.support.VERSION"
+        android:value="26.1.0" />
 
 </manifest>
