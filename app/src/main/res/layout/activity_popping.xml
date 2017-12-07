@@ -5,6 +5,7 @@
     android:id="@+id/layout_poping"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="edu.csi5230.ngoretski.finalproject.PoppingActivity">
+    tools:context="edu.csi5230.ngoretski.finalproject.PoppingActivity"
+    android:background="@color/colorWhite">
 
 </android.support.constraint.ConstraintLayout>

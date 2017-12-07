@@ -7,14 +7,45 @@
     tools:context="edu.csi5230.ngoretski.finalproject.MusicActivity">
 
     <Button
-        android:id="@+id/button_music_jingle"
-        android:layout_width="368dp"
+        android:id="@+id/button_jingle_bells"
+        android:layout_width="0dp"
         android:layout_height="90dp"
-        android:layout_marginTop="32dp"
-        android:text="Jingle Bells"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:text="Jingle Bells"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_ohholynight"
+        android:layout_width="0dp"
+        android:layout_height="96dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="24dp"
+        android:text="Oh Holy Night"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_jingle_bells"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <Button
+        android:id="@+id/button_wewish"
+        android:layout_width="0dp"
+        android:layout_height="96dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="24dp"
+        android:text="We Wish You a Merry Christmas"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_ohholynight" />
+
 </android.support.constraint.ConstraintLayout>
